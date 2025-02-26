@@ -8,3 +8,8 @@ I had a problem with the pump because I couldn't see when it stopped working. Th
 - UTP cat.5e U/UTP 4x2x0.5 Alantec gel-filled outdoor cable
 - box make on 3D printer
 - epoxy grout
+
+### Connection:
+- ESP8266 D1 -> Waveshare 9525 OUT
+- ESP8266 VCC -> Waveshare 9525 VCC
+- ESP8266 GND -> Waveshare 9525 GND
