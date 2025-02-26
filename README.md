@@ -10,6 +10,11 @@ I had a problem with the pump because I couldn't see when it stopped working. Th
 - epoxy grout
 
 ### Connection:
-- ESP8266 D1 -> Waveshare 9525 OUT
-- ESP8266 VCC -> Waveshare 9525 VCC
+- ESP8266 D1 -> R 10K -> Waveshare 9525 OUT
+- ESP8266 VCC -> 220R -> Waveshare 9525 VCC
+                  |
+                R 10K 
+                  |
+- ESP8266 GND <---'
 - ESP8266 GND -> Waveshare 9525 GND
+- 
